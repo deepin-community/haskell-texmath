@@ -1,0 +1,35 @@
+<?xml version='1.0' ?>
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mover>
+      <mi>ϕ</mi>
+      <mo accent="true">̃</mo>
+    </mover>
+    <msqrt>
+      <mi>ϕ</mi>
+    </msqrt>
+    <mfrac>
+      <mi>ϕ</mi>
+      <mi>ξ</mi>
+    </mfrac>
+    <mfrac>
+      <mi>ϕ</mi>
+      <mi>ξ</mi>
+    </mfrac>
+    <mfrac>
+      <mi>ϕ</mi>
+      <mi>ξ</mi>
+    </mfrac>
+    <mrow>
+      <mo stretchy="false" form="prefix">(</mo>
+      <mi>ϕ</mi>
+      <mo stretchy="false" form="postfix">)</mo>
+    </mrow>
+    <mrow>
+      <mo stretchy="false" form="prefix">(</mo>
+      <mi>ϕ</mi>
+      <mo stretchy="false" form="postfix">)</mo>
+    </mrow>
+    <mi>ξ</mi>
+  </mrow>
+</math>

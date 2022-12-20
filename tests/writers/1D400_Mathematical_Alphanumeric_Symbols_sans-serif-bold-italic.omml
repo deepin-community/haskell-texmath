@@ -1,0 +1,889 @@
+<?xml version='1.0' ?>
+<m:oMathPara>
+  <m:oMathParaPr>
+    <m:jc m:val="center" />
+  </m:oMathParaPr>
+  <m:oMath>
+    <m:m>
+      <m:mPr>
+        <m:baseJc m:val="center" />
+        <m:plcHide m:val="1" />
+        <m:mcs>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+          <m:mc>
+            <m:mcPr>
+              <m:mcJc m:val="center" />
+              <m:count m:val="1" />
+            </m:mcPr>
+          </m:mc>
+        </m:mcs>
+      </m:mPr>
+      <m:mr>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1D63</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1D64</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1D65</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1D66</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1D79</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1D7A</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1D7B</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1D7C</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>0</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙀</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙐</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙠</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞐</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞠</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞰</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟀</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>1</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙁</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙑</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙡</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞑</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞡</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞱</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟁</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>2</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙂</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙒</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙢</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞒</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞢</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞲</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟂</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>3</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙃</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙓</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙣</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞓</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞣</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞳</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟃</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>4</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙄</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙔</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙤</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞔</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞤</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞴</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟄</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>5</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙅</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙕</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙥</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞕</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞥</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞵</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟅</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>6</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙆</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙖</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙦</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞖</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞦</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞶</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟆</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>7</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙇</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙗</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙧</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞗</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞧</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞷</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟇</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>8</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙈</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙘</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙨</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞘</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞨</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞸</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟈</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>9</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙉</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙙</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙩</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞙</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞩</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞹</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝟉</m:t>
+          </m:r>
+        </m:e>
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>A</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙊</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙚</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙪</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞚</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞪</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞺</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>B</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+        <m:e>
+          <m:r>
+            <m:t>𝙋</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙛</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙫</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞛</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞫</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞻</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>C</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝘼</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙌</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙜</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙬</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞜</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞬</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞼</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>D</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝘽</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙍</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙝</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙭</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞝</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞭</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞽</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>E</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝘾</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙎</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙞</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙮</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞞</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞮</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞾</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+      </m:mr>
+      <m:mr>
+        <m:e>
+          <m:r>
+            <m:rPr>
+              <m:nor />
+              <m:sty m:val="p" />
+            </m:rPr>
+            <m:t>F</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝘿</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙏</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙟</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝙯</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞟</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞯</m:t>
+          </m:r>
+        </m:e>
+        <m:e>
+          <m:r>
+            <m:t>𝞿</m:t>
+          </m:r>
+        </m:e>
+        <m:e />
+      </m:mr>
+    </m:m>
+  </m:oMath>
+</m:oMathPara>

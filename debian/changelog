@@ -1,0 +1,330 @@
+haskell-texmath (0.12.0.2-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:41:54 +0800
+
+haskell-texmath (0.12.0.2-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Sun, 31 May 2020 08:57:57 -0400
+
+haskell-texmath (0.11.2.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Sat, 27 Jul 2019 23:04:27 -0400
+
+haskell-texmath (0.11.1-3) unstable; urgency=medium
+
+  * Remove build dependency on libghc-parsec3-dev (provided by ghc-
+    8.4.3)
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Wed, 03 Oct 2018 12:06:15 +0300
+
+haskell-texmath (0.11.1-2) unstable; urgency=medium
+
+  * Remove build dependency on libghc-mtl-dev (provided by ghc-8.4.3)
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Mon, 01 Oct 2018 13:33:35 +0300
+
+haskell-texmath (0.11.1-1) unstable; urgency=medium
+
+  * Bump debhelper compat level to 10
+  * New upstream release
+
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Sun, 30 Sep 2018 13:18:26 +0300
+
+haskell-texmath (0.10.1.2-1) unstable; urgency=medium
+
+  * Set Rules-Requires-Root to no.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Tue, 03 Jul 2018 22:26:47 -0400
+
+haskell-texmath (0.10.1.1-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Use salsa.debian.org URLs in Vcs-{Browser,Git} fields
+
+  [ Clint Adams ]
+  * Bump to Standards-Version 4.1.4.
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 09 Apr 2018 17:14:58 -0400
+
+haskell-texmath (0.9.4.4-1) unstable; urgency=medium
+
+  [ Ilias Tsitsimpis ]
+  * Change Priority to optional. Since Debian Policy version 4.0.1,
+    priority extra has been deprecated.
+  * Use the HTTPS form of the copyright-format URL
+  * Modify d/watch and Source field in d/copyright to use HTTPS
+  * Declare compliance with Debian policy 4.1.1
+
+  [ Clint Adams ]
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Fri, 24 Nov 2017 16:15:49 -0500
+
+haskell-texmath (0.9.4.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Tue, 18 Jul 2017 23:16:33 -0400
+
+haskell-texmath (0.9.4-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Thu, 06 Jul 2017 20:19:15 -0400
+
+haskell-texmath (0.8.6.7-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 31 Oct 2016 21:05:40 -0400
+
+haskell-texmath (0.8.6.6-2) unstable; urgency=medium
+
+  * Upload to unstable as part of GHC 8 transition.
+
+ -- Clint Adams <clint@debian.org>  Thu, 27 Oct 2016 18:36:29 -0400
+
+haskell-texmath (0.8.6.6-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Wed, 26 Oct 2016 19:14:58 -0400
+
+haskell-texmath (0.8.6.5-2) experimental; urgency=medium
+
+  * Temporarily build-depend on ghc 8.
+
+ -- Clint Adams <clint@debian.org>  Mon, 17 Oct 2016 16:46:53 -0400
+
+haskell-texmath (0.8.6.5-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Thu, 04 Aug 2016 13:41:07 -0400
+
+haskell-texmath (0.8.6.4-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Tue, 12 Jul 2016 16:01:16 -0400
+
+haskell-texmath (0.8.6.3-1) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Use secure (https) uri in Vcs-Git field in 'debian/control'
+  * Bump standards version to 3.9.8 (no changes needed)
+  * Convert `debian/copyright' to dep5 format
+
+  [ Joachim Breitner ]
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Wed, 01 Jun 2016 12:48:15 +0200
+
+haskell-texmath (0.8.4.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Mon, 11 Jan 2016 00:02:48 -0500
+
+haskell-texmath (0.8.2.2-3) unstable; urgency=medium
+
+  * Switch Vcs-Git/Vcs-Browser headers to new location.
+
+ -- Clint Adams <clint@debian.org>  Thu, 03 Dec 2015 14:55:10 -0500
+
+haskell-texmath (0.8.2.2-2) experimental; urgency=medium
+
+  * Bump standards-version to 3.9.6
+  * Depend on haskell-devscripts >= 0.10 to ensure that this package
+    builds against GHC in experimental
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 20 Aug 2015 10:28:51 +0200
+
+haskell-texmath (0.8.2.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Thu, 16 Jul 2015 15:25:54 +0200
+
+haskell-texmath (0.8.2-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 29 Jun 2015 13:34:22 +0200
+
+haskell-texmath (0.8.1-3) unstable; urgency=medium
+
+  * Rebuild due to haskell-devscripts bug affecting the previous
+
+ -- Joachim Breitner <nomeata@debian.org>  Tue, 28 Apr 2015 23:59:08 +0200
+
+haskell-texmath (0.8.1-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Joachim Breitner <nomeata@debian.org>  Mon, 27 Apr 2015 11:54:14 +0200
+
+haskell-texmath (0.8.1-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 24 Apr 2015 13:40:50 +0200
+
+haskell-texmath (0.8.0.1-1) experimental; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Tue, 30 Dec 2014 12:45:48 +0100
+
+haskell-texmath (0.8-1) experimental; urgency=medium
+
+  * Depend on haskell-devscripts 0.9, found in experimental
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Dec 2014 17:12:23 +0100
+
+haskell-texmath (0.6.6.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Clint Adams <clint@debian.org>  Fri, 09 May 2014 21:01:57 -0400
+
+haskell-texmath (0.6.6-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 07 Mar 2014 13:02:57 +0100
+
+haskell-texmath (0.6.5.2-1) unstable; urgency=low
+
+  [ Joachim Breitner ]
+  * Adjust watch file to new hackage layout
+
+  [ Louis Bettens ]
+  * New upstream release
+
+ -- Louis Bettens <louis@bettens.info>  Fri, 22 Nov 2013 22:52:04 +0100
+
+haskell-texmath (0.6.1.3-2) unstable; urgency=low
+
+  * Enable compat level 9
+  * Use substvars for Haskell description blurbs
+
+ -- Joachim Breitner <nomeata@debian.org>  Fri, 24 May 2013 12:52:16 +0200
+
+haskell-texmath (0.6.1.3-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 10 Mar 2013 01:02:41 +0100
+
+haskell-texmath (0.6.0.6-2) experimental; urgency=low
+
+  * Depend on haskell-devscripts 0.8.13 to ensure this packages is built
+    against experimental
+  * Bump standards version, no change
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 14 Oct 2012 12:02:15 +0200
+
+haskell-texmath (0.6.0.6-1) unstable; urgency=low
+
+  * New upstream release.
+  * Drop patch to depends on parsec >= 3, merged upstream.
+
+ -- Giovanni Mascellani <gio@debian.org>  Wed, 09 May 2012 09:56:19 +0200
+
+haskell-texmath (0.6.0.3-1) unstable; urgency=low
+
+  * New upstream release
+  * DM-Upload-Allowed: yes
+
+ -- Kiwamu Okabe <kiwamu@debian.or.jp>  Mon, 27 Feb 2012 22:31:50 +0900
+
+haskell-texmath (0.5.0.1-2) unstable; urgency=low
+
+  * Sourceful upload to rebuild documentation package
+
+ -- Iain Lane <laney@debian.org>  Thu, 23 Feb 2012 11:18:31 +0000
+
+haskell-texmath (0.5.0.1-1) unstable; urgency=low
+
+  [ Giovanni Mascellani ]
+  * New upstream release
+
+  [ Marco Silva ]
+  * Use ghc instead of ghc6
+
+  [ Iain Lane ]
+  * Standards-Version → 3.9.2, no changes required
+  * Add missing syb BDs
+  * Remove example which is no longer shipped by upstream
+
+ -- Iain Lane <laney@debian.org>  Mon, 23 May 2011 18:56:22 +0100
+
+haskell-texmath (0.3.0.3-1) experimental; urgency=low
+
+  * New upstream release
+  * Build against parsec v3 (Closes: #600691)
+
+ -- Joachim Breitner <nomeata@debian.org>  Tue, 19 Oct 2010 20:03:22 +0200
+
+haskell-texmath (0.3.0.2-2) unstable; urgency=low
+
+  * Run ghc6 without active timer (+RTS -V0 -RTS) to avoid build
+    problems on hppa
+
+ -- Joachim Breitner <nomeata@debian.org>  Sun, 22 Aug 2010 16:06:02 +0200
+
+haskell-texmath (0.3.0.2-1) unstable; urgency=low
+
+  * New upstream release (closes: #591169).
+  * Removing quilt patches (they're not necessary).
+  * Removing doc-base (like most Haskell packages).
+  * Updating my email address.
+  * Standards-Version bumped to 3.9.1 (no changes required).
+
+ -- Giovanni Mascellani <gio@debian.org>  Sun, 01 Aug 2010 22:14:41 +0200
+
+haskell-texmath (0.2.0.3-1) unstable; urgency=low
+
+  [ Giovanni Mascellani ]
+  * New upstream release
+
+  [ Marco Túlio Gontijo e Silva ]
+  * Use Build-Depends-Indep.
+  * control: Vcs-Darcs: Use simpler URL.
+
+ -- Giovanni Mascellani <mascellani@poisson.phc.unipi.it>  Mon, 22 Mar 2010 22:14:03 +0100
+
+haskell-texmath (0.1.1-2) unstable; urgency=low
+
+  [ Marco Túlio Gontijo e Silva ]
+  * debian/watch: Include package name in downloaded .tar.gz.
+  * debian/watch: Remove spaces, since they're not allowed by uscan.
+  * debian/control: Add field Provides: ${haskell:Provides} to -dev and
+    -prof packages.
+  * debian/control: Remove dependency in hscolour, since it's now a
+    dependency of haskell-devscripts.
+  * debian/control: Remove haddock from Build-Depends:, since it's now a
+    Depends: of haskell-devscripts.
+  * debian/control: Bump Standards-Version: to 3.8.4, no changes needed.
+
+  [ Joachim Breitner ]
+  * Bump haskell-devscripts dependency to 0.7
+  * Switch to 3.0 (quilt) version
+
+ -- Joachim Breitner <nomeata@debian.org>  Sat, 20 Feb 2010 18:02:32 +0100
+
+haskell-texmath (0.1.1-1) unstable; urgency=low
+
+  * Initial release. (closes: #562771)
+
+ -- Giovanni Mascellani <mascellani@poisson.phc.unipi.it>  Thu, 07 Jan 2010 19:30:15 +0100

@@ -1,0 +1,59 @@
+<?xml version='1.0' ?>
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mstyle mathvariant="bold">
+      <mi>𝐂</mi>
+    </mstyle>
+    <mo stretchy="false" form="prefix">(</mo>
+    <mi>n</mi>
+    <mo>,</mo>
+    <mi>k</mi>
+    <mo stretchy="false" form="postfix">)</mo>
+    <mo>=</mo>
+    <msubsup>
+      <mstyle mathvariant="bold">
+        <mi>𝐂</mi>
+      </mstyle>
+      <mi>k</mi>
+      <mi>n</mi>
+    </msubsup>
+    <mo>=</mo>
+    <msub>
+      <mrow />
+      <mi>n</mi>
+    </msub>
+    <msub>
+      <mstyle mathvariant="bold">
+        <mi>𝐂</mi>
+      </mstyle>
+      <mi>k</mi>
+    </msub>
+    <mo>=</mo>
+    <mrow>
+      <mo stretchy="true" form="prefix">(</mo>
+      <mfrac linethickness="0">
+        <mi>n</mi>
+        <mi>k</mi>
+      </mfrac>
+      <mo stretchy="true" form="postfix">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi>n</mi>
+        <mi>!</mi>
+      </mrow>
+      <mrow>
+        <mi>k</mi>
+        <mi>!</mi>
+        <mspace width="0.167em" />
+        <mo stretchy="false" form="prefix">(</mo>
+        <mi>n</mi>
+        <mo>−</mo>
+        <mi>k</mi>
+        <mo stretchy="false" form="postfix">)</mo>
+        <mi>!</mi>
+      </mrow>
+    </mfrac>
+  </mrow>
+</math>

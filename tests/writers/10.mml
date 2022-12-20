@@ -1,0 +1,79 @@
+<?xml version='1.0' ?>
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msub>
+      <mi>ϕ</mi>
+      <mi>n</mi>
+    </msub>
+    <mo stretchy="false" form="prefix">(</mo>
+    <mi>κ</mi>
+    <mo stretchy="false" form="postfix">)</mo>
+    <mo>=</mo>
+    <mfrac>
+      <mn>1</mn>
+      <mrow>
+        <mn>4</mn>
+        <msup>
+          <mi>π</mi>
+          <mn>2</mn>
+        </msup>
+        <msup>
+          <mi>κ</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </mfrac>
+    <msubsup>
+      <mo>∫</mo>
+      <mn>0</mn>
+      <mi>∞</mi>
+    </msubsup>
+    <mfrac>
+      <mrow>
+        <mo>sin</mo>
+        <mo stretchy="false" form="prefix">(</mo>
+        <mi>κ</mi>
+        <mi>R</mi>
+        <mo stretchy="false" form="postfix">)</mo>
+      </mrow>
+      <mrow>
+        <mi>κ</mi>
+        <mi>R</mi>
+      </mrow>
+    </mfrac>
+    <mfrac>
+      <mi>∂</mi>
+      <mrow>
+        <mi>∂</mi>
+        <mi>R</mi>
+      </mrow>
+    </mfrac>
+    <mrow>
+      <mo stretchy="true" form="prefix">[</mo>
+      <msup>
+        <mi>R</mi>
+        <mn>2</mn>
+      </msup>
+      <mfrac>
+        <mrow>
+          <mi>∂</mi>
+          <msub>
+            <mi>D</mi>
+            <mi>n</mi>
+          </msub>
+          <mo stretchy="false" form="prefix">(</mo>
+          <mi>R</mi>
+          <mo stretchy="false" form="postfix">)</mo>
+        </mrow>
+        <mrow>
+          <mi>∂</mi>
+          <mi>R</mi>
+        </mrow>
+      </mfrac>
+      <mo stretchy="true" form="postfix">]</mo>
+    </mrow>
+    <mspace width="0.167em" />
+    <mi>d</mi>
+    <mi>R</mi>
+  </mrow>
+</math>
