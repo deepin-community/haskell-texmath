@@ -8,6 +8,7 @@
       <m:dPr>
         <m:begChr m:val="(" />
         <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>
@@ -63,6 +64,9 @@
       </m:e>
     </m:d>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>(</m:t>
     </m:r>
     <m:m>
@@ -115,12 +119,16 @@
       </m:mr>
     </m:m>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>)</m:t>
     </m:r>
     <m:d>
       <m:dPr>
         <m:begChr m:val="(" />
         <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>

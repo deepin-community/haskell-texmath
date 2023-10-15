@@ -18,12 +18,14 @@
       <m:num>
         <m:r>
           <m:rPr>
-            <m:nor />
             <m:sty m:val="p" />
           </m:rPr>
           <m:t>tan</m:t>
         </m:r>
         <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
           <m:t>&#8289;</m:t>
         </m:r>
         <m:r>

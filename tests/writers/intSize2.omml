@@ -84,6 +84,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∫</m:t>
           </m:r>
           <m:r>
@@ -92,6 +95,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∫</m:t>
           </m:r>
           <m:r>
@@ -103,6 +109,7 @@
             <m:dPr>
               <m:begChr m:val="∫" />
               <m:endChr m:val="" />
+              <m:sepChr m:val="" />
               <m:grow />
             </m:dPr>
             <m:e>
@@ -117,6 +124,7 @@
             <m:dPr>
               <m:begChr m:val="∫" />
               <m:endChr m:val="" />
+              <m:sepChr m:val="" />
               <m:grow />
             </m:dPr>
             <m:e>
@@ -139,6 +147,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∫</m:t>
           </m:r>
           <m:r>
@@ -147,6 +158,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∫</m:t>
           </m:r>
           <m:r>
@@ -158,6 +172,7 @@
             <m:dPr>
               <m:begChr m:val="∫" />
               <m:endChr m:val="" />
+              <m:sepChr m:val="" />
               <m:grow />
             </m:dPr>
             <m:e>
@@ -172,6 +187,7 @@
             <m:dPr>
               <m:begChr m:val="∫" />
               <m:endChr m:val="" />
+              <m:sepChr m:val="" />
               <m:grow />
             </m:dPr>
             <m:e>
@@ -194,6 +210,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∫</m:t>
           </m:r>
           <m:f>
@@ -214,6 +233,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∫</m:t>
           </m:r>
           <m:f>
@@ -237,6 +259,7 @@
             <m:dPr>
               <m:begChr m:val="∫" />
               <m:endChr m:val="" />
+              <m:sepChr m:val="" />
               <m:grow />
             </m:dPr>
             <m:e>
@@ -263,6 +286,7 @@
             <m:dPr>
               <m:begChr m:val="∫" />
               <m:endChr m:val="" />
+              <m:sepChr m:val="" />
               <m:grow />
             </m:dPr>
             <m:e>
@@ -297,6 +321,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∫</m:t>
           </m:r>
           <m:f>
@@ -317,6 +344,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∫</m:t>
           </m:r>
           <m:f>
@@ -340,6 +370,7 @@
             <m:dPr>
               <m:begChr m:val="∫" />
               <m:endChr m:val="" />
+              <m:sepChr m:val="" />
               <m:grow />
             </m:dPr>
             <m:e>
@@ -366,6 +397,7 @@
             <m:dPr>
               <m:begChr m:val="∫" />
               <m:endChr m:val="" />
+              <m:sepChr m:val="" />
               <m:grow />
             </m:dPr>
             <m:e>

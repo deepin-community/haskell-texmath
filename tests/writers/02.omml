@@ -8,12 +8,16 @@
       <m:t>2</m:t>
     </m:r>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>=</m:t>
     </m:r>
     <m:d>
       <m:dPr>
         <m:begChr m:val="(" />
         <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>
@@ -26,6 +30,7 @@
               <m:dPr>
                 <m:begChr m:val="(" />
                 <m:endChr m:val=")" />
+                <m:sepChr m:val="" />
                 <m:grow />
               </m:dPr>
               <m:e>
@@ -33,6 +38,9 @@
                   <m:t>3</m:t>
                 </m:r>
                 <m:r>
+                  <m:rPr>
+                    <m:sty m:val="p" />
+                  </m:rPr>
                   <m:t>−</m:t>
                 </m:r>
                 <m:r>
@@ -41,6 +49,9 @@
               </m:e>
             </m:d>
             <m:r>
+              <m:rPr>
+                <m:sty m:val="p" />
+              </m:rPr>
               <m:t>×</m:t>
             </m:r>
             <m:r>
@@ -52,6 +63,9 @@
               <m:t>3</m:t>
             </m:r>
             <m:r>
+              <m:rPr>
+                <m:sty m:val="p" />
+              </m:rPr>
               <m:t>−</m:t>
             </m:r>
             <m:r>

@@ -27,6 +27,7 @@
       <m:dPr>
         <m:begChr m:val="(" />
         <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>
@@ -36,6 +37,9 @@
       </m:e>
     </m:d>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>=</m:t>
     </m:r>
     <m:f>
@@ -55,11 +59,13 @@
           <m:t>i</m:t>
         </m:r>
         <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
           <m:t> </m:t>
         </m:r>
         <m:r>
           <m:rPr>
-            <m:nor />
             <m:sty m:val="p" />
           </m:rPr>
           <m:t>cos</m:t>
@@ -68,6 +74,7 @@
           <m:dPr>
             <m:begChr m:val="(" />
             <m:endChr m:val=")" />
+            <m:sepChr m:val="" />
             <m:grow />
           </m:dPr>
           <m:e>
@@ -120,6 +127,9 @@
               <m:t>f</m:t>
             </m:r>
             <m:r>
+              <m:rPr>
+                <m:sty m:val="p" />
+              </m:rPr>
               <m:t>(</m:t>
             </m:r>
             <m:r>
@@ -129,6 +139,9 @@
               <m:t>z</m:t>
             </m:r>
             <m:r>
+              <m:rPr>
+                <m:sty m:val="p" />
+              </m:rPr>
               <m:t>)</m:t>
             </m:r>
             <m:sSup>
@@ -137,10 +150,14 @@
                   <m:dPr>
                     <m:begChr m:val="(" />
                     <m:endChr m:val=")" />
+                    <m:sepChr m:val="" />
                     <m:grow />
                   </m:dPr>
                   <m:e>
                     <m:r>
+                      <m:rPr>
+                        <m:sty m:val="p" />
+                      </m:rPr>
                       <m:t>-</m:t>
                     </m:r>
                     <m:r>
@@ -176,6 +193,9 @@
               </m:sup>
             </m:sSup>
             <m:r>
+              <m:rPr>
+                <m:sty m:val="p" />
+              </m:rPr>
               <m:t>-</m:t>
             </m:r>
             <m:r>
@@ -186,6 +206,9 @@
       </m:e>
     </m:nary>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>ⅆ</m:t>
     </m:r>
     <m:r>

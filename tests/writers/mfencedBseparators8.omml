@@ -8,6 +8,7 @@
       <m:dPr>
         <m:begChr m:val="(" />
         <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>
@@ -24,6 +25,9 @@
           </m:sub>
         </m:sSub>
         <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
           <m:t>,</m:t>
         </m:r>
         <m:sSub>
@@ -39,6 +43,9 @@
           </m:sub>
         </m:sSub>
         <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
           <m:t>,</m:t>
         </m:r>
         <m:sSub>

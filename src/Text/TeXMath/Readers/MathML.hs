@@ -23,9 +23,7 @@ Parses MathML in conformance with the MathML3 specification.
 
 Unimplemented features:
 
-  - menclose
   - mpadded
-  - mmultiscripts (etc)
   - malignmark
   - maligngroup
   - Elementary Math
@@ -46,13 +44,13 @@ import Text.TeXMath.Shared (getTextType, readLength, getOperator, fixTree,
                             getSpaceWidth, isEmpty, empty)
 import Text.TeXMath.Unicode.ToTeX (getSymbolType)
 import Text.TeXMath.Unicode.ToUnicode (fromUnicode)
-import Text.TeXMath.Compat (throwError, Except, runExcept, MonadError)
-import Control.Applicative ((<$>), (<|>), (<*>))
+import Control.Monad.Except (throwError, Except, runExcept, MonadError)
 import Control.Arrow ((&&&))
+import Data.Char (toLower)
 import Data.Maybe (fromMaybe, listToMaybe, isJust)
-import Data.Monoid (mconcat, First(..), getFirst)
-import Data.Semigroup ((<>))
+import Data.Monoid (First(..), getFirst)
 import Data.List (transpose)
+import Control.Applicative ((<|>))
 import qualified Data.Text as T
 import Control.Monad (filterM, guard)
 import Control.Monad.Reader (ReaderT, runReaderT, asks, local)
@@ -125,6 +123,7 @@ expr' e =
     "semantics" -> mkE <$> semantics e
     "maligngroup" -> return $ mkE empty
     "malignmark" -> return $ mkE empty
+    "mmultiscripts" -> mkE <$> multiscripts e
     _ -> throwError $ "Unexpected element " <> err e
   where
     mkE :: Exp -> [IR Exp]
@@ -469,6 +468,27 @@ annotation e = do
       First . Just <$> row e
     _ -> return (First Nothing)
 
+multiscripts :: Element -> MML Exp
+multiscripts e = do
+  let (xs, pres) = break ((== "mprescripts") . name) (elChildren e)
+  let row'' e' = if name e' == "none"
+                    then return $ EGrouped []
+                    else row e'
+  xs' <- mapM row'' xs
+  let base =
+        case xs' of
+          [x]       -> x
+          [x,y]     -> ESub x y
+          (x:y:z:_) -> ESubsup x y z
+          []        -> EGrouped []
+  pres' <- mapM row'' $ drop 1 pres
+  return $
+    case pres' of
+        (x:y:_) -> EGrouped [ESubsup (EGrouped []) x y, base]
+        [x]     -> EGrouped [ESub x (EGrouped []), base]
+        []      -> base
+
+
 -- Table
 
 table :: Element -> MML Exp
@@ -577,17 +597,21 @@ err e = name e <> maybe "" (\x -> " line " <> T.pack (show x)) (elLine e)
 -- Kept as String for Text.XML.Light
 findAttrQ :: String -> Element -> MML (Maybe T.Text)
 findAttrQ s e = do
-  inherit <- asks (lookupAttrQ s . attrs)
+  inherit <- case (name e, s) of
+            ("mfenced", "open") -> return Nothing
+            ("mfenced", "close") -> return Nothing
+            ("mfenced", "separators") -> return Nothing
+            _ -> asks (lookupAttrQ s . attrs)
   return $ fmap T.pack $
     findAttr (QName s Nothing Nothing) e
       <|> inherit
 
 -- Kept as String for Text.XML.Light
 lookupAttrQ :: String -> [Attr] -> Maybe String
-lookupAttrQ s = lookupAttr (QName s Nothing Nothing)
+lookupAttrQ s = lookupAttr (QName (map toLower s) Nothing Nothing)
 
 name :: Element -> T.Text
-name (elName -> (QName n _ _)) = T.pack n
+name (elName -> (QName n _ _)) = T.toLower $ T.pack n
 
 -- Kept as String for Text.XML.Light
 tunode :: String -> T.Text -> Element

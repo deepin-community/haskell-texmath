@@ -8,12 +8,16 @@
       <m:t>f</m:t>
     </m:r>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>&#8289;</m:t>
     </m:r>
     <m:d>
       <m:dPr>
         <m:begChr m:val="(" />
         <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>

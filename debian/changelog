@@ -1,8 +1,12 @@
-haskell-texmath (0.12.0.2-deepin1) unstable; urgency=medium
+haskell-texmath (0.12.4-1) unstable; urgency=medium
 
-  * Rebuild
+  [ Ilias Tsitsimpis ]
+  * Declare compliance with Debian policy 4.6.1
 
- -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:41:54 +0800
+  [ Clint Adams ]
+  * New upstream release
+
+ -- Clint Adams <clint@debian.org>  Tue, 26 Jul 2022 13:48:26 -0400
 
 haskell-texmath (0.12.0.2-1) unstable; urgency=medium
 

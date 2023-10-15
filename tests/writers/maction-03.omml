@@ -10,6 +10,7 @@
           <m:dPr>
             <m:begChr m:val="(" />
             <m:endChr m:val=")" />
+            <m:sepChr m:val="" />
             <m:grow />
           </m:dPr>
           <m:e>
@@ -62,6 +63,9 @@
       </m:e>
       <m:sup>
         <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
           <m:t>T</m:t>
         </m:r>
       </m:sup>

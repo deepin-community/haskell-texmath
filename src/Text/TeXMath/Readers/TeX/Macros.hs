@@ -34,7 +34,6 @@ import Data.Char (isDigit, isLetter)
 import qualified Data.Text as T
 import Control.Monad
 import Text.Parsec
-import Control.Applicative ((<*))
 
 data Macro = Macro { macroDefinition :: T.Text
                    , macroParser     :: forall st m s . Stream s m Char =>
@@ -103,7 +102,7 @@ applyMacrosOnce ms s =
        Left _  -> Nothing
     where tok = try $ do
                   skipComment
-                  choice [ choice (map macroParser ms)
+                  choice [ choice (map (\m -> macroParser m) ms)
                          , T.pack <$> ctrlseq
                          , T.pack <$> count 1 anyChar ]
 
