@@ -10,22 +10,32 @@
       </m:rPr>
       <m:t>C</m:t>
     </m:r>
+    <m:d>
+      <m:dPr>
+        <m:begChr m:val="(" />
+        <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
+        <m:grow />
+      </m:dPr>
+      <m:e>
+        <m:r>
+          <m:t>n</m:t>
+        </m:r>
+        <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
+          <m:t>,</m:t>
+        </m:r>
+        <m:r>
+          <m:t>k</m:t>
+        </m:r>
+      </m:e>
+    </m:d>
     <m:r>
-      <m:t>(</m:t>
-    </m:r>
-    <m:r>
-      <m:t>n</m:t>
-    </m:r>
-    <m:r>
-      <m:t>,</m:t>
-    </m:r>
-    <m:r>
-      <m:t>k</m:t>
-    </m:r>
-    <m:r>
-      <m:t>)</m:t>
-    </m:r>
-    <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>=</m:t>
     </m:r>
     <m:sSubSup>
@@ -49,6 +59,9 @@
       </m:sup>
     </m:sSubSup>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>=</m:t>
     </m:r>
     <m:sSub>
@@ -79,12 +92,16 @@
       </m:sub>
     </m:sSub>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>=</m:t>
     </m:r>
     <m:d>
       <m:dPr>
         <m:begChr m:val="(" />
         <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>
@@ -106,6 +123,9 @@
       </m:e>
     </m:d>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>=</m:t>
     </m:r>
     <m:f>
@@ -117,6 +137,9 @@
           <m:t>n</m:t>
         </m:r>
         <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
           <m:t>!</m:t>
         </m:r>
       </m:num>
@@ -125,27 +148,40 @@
           <m:t>k</m:t>
         </m:r>
         <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
           <m:t>!</m:t>
         </m:r>
         <m:r>
           <m:t> </m:t>
         </m:r>
+        <m:d>
+          <m:dPr>
+            <m:begChr m:val="(" />
+            <m:endChr m:val=")" />
+            <m:sepChr m:val="" />
+            <m:grow />
+          </m:dPr>
+          <m:e>
+            <m:r>
+              <m:t>n</m:t>
+            </m:r>
+            <m:r>
+              <m:rPr>
+                <m:sty m:val="p" />
+              </m:rPr>
+              <m:t>−</m:t>
+            </m:r>
+            <m:r>
+              <m:t>k</m:t>
+            </m:r>
+          </m:e>
+        </m:d>
         <m:r>
-          <m:t>(</m:t>
-        </m:r>
-        <m:r>
-          <m:t>n</m:t>
-        </m:r>
-        <m:r>
-          <m:t>−</m:t>
-        </m:r>
-        <m:r>
-          <m:t>k</m:t>
-        </m:r>
-        <m:r>
-          <m:t>)</m:t>
-        </m:r>
-        <m:r>
+          <m:rPr>
+            <m:sty m:val="p" />
+          </m:rPr>
           <m:t>!</m:t>
         </m:r>
       </m:den>

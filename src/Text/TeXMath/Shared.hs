@@ -1,4 +1,4 @@
-{-# LANGUAGE CPP, ScopedTypeVariables, OverloadedStrings #-}
+{-# LANGUAGE ScopedTypeVariables, OverloadedStrings #-}
 {-
 Copyright (C) 2014 Matthew Pickering <matthewtpickering@gmail.com>
 
@@ -44,8 +44,6 @@ import qualified Data.Text as T
 import Data.Maybe (fromMaybe)
 import Data.Ratio ((%))
 import Data.List (sort)
-import Data.Semigroup ((<>))
-import Control.Applicative ((<$>), (<*>))
 import Control.Monad (guard)
 import Text.Parsec (Parsec, parse, getInput, digit, char, many1, option)
 import Data.Generics (everywhere, mkT)

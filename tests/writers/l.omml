@@ -35,6 +35,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇚</m:t>
           </m:r>
         </m:e>
@@ -51,6 +54,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>ĺ</m:t>
           </m:r>
         </m:e>
@@ -67,6 +73,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>Ĺ</m:t>
           </m:r>
         </m:e>
@@ -83,6 +92,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⦴</m:t>
           </m:r>
         </m:e>
@@ -99,6 +111,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>ℒ</m:t>
           </m:r>
         </m:e>
@@ -115,6 +130,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>λ</m:t>
           </m:r>
         </m:e>
@@ -131,6 +149,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>Λ</m:t>
           </m:r>
         </m:e>
@@ -147,6 +168,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟨</m:t>
           </m:r>
         </m:e>
@@ -163,6 +187,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟪</m:t>
           </m:r>
         </m:e>
@@ -179,6 +206,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⦑</m:t>
           </m:r>
         </m:e>
@@ -195,6 +225,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟨</m:t>
           </m:r>
         </m:e>
@@ -211,6 +244,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪅</m:t>
           </m:r>
         </m:e>
@@ -227,6 +263,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>ℒ</m:t>
           </m:r>
         </m:e>
@@ -243,6 +282,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>«</m:t>
           </m:r>
         </m:e>
@@ -259,6 +301,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>←</m:t>
           </m:r>
         </m:e>
@@ -275,6 +320,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇐</m:t>
           </m:r>
         </m:e>
@@ -291,6 +339,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↞</m:t>
           </m:r>
         </m:e>
@@ -307,6 +358,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇤</m:t>
           </m:r>
         </m:e>
@@ -323,6 +377,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⤟</m:t>
           </m:r>
         </m:e>
@@ -339,6 +396,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⤝</m:t>
           </m:r>
         </m:e>
@@ -355,6 +415,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↩</m:t>
           </m:r>
         </m:e>
@@ -371,6 +434,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↫</m:t>
           </m:r>
         </m:e>
@@ -387,6 +453,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⤹</m:t>
           </m:r>
         </m:e>
@@ -403,6 +472,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥳</m:t>
           </m:r>
         </m:e>
@@ -419,6 +491,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↢</m:t>
           </m:r>
         </m:e>
@@ -435,6 +510,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪫</m:t>
           </m:r>
         </m:e>
@@ -451,6 +529,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⤙</m:t>
           </m:r>
         </m:e>
@@ -467,6 +548,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⤛</m:t>
           </m:r>
         </m:e>
@@ -483,6 +567,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪭</m:t>
           </m:r>
         </m:e>
@@ -500,7 +587,6 @@
         <m:e>
           <m:r>
             <m:rPr>
-              <m:nor />
               <m:sty m:val="p" />
             </m:rPr>
             <m:t>⪭︀</m:t>
@@ -519,6 +605,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⤌</m:t>
           </m:r>
         </m:e>
@@ -535,6 +624,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⤎</m:t>
           </m:r>
         </m:e>
@@ -551,6 +643,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>❲</m:t>
           </m:r>
         </m:e>
@@ -567,6 +662,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>{</m:t>
           </m:r>
         </m:e>
@@ -583,6 +681,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>[</m:t>
           </m:r>
         </m:e>
@@ -599,6 +700,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⦋</m:t>
           </m:r>
         </m:e>
@@ -615,6 +719,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⦏</m:t>
           </m:r>
         </m:e>
@@ -631,6 +738,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⦍</m:t>
           </m:r>
         </m:e>
@@ -647,6 +757,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>ľ</m:t>
           </m:r>
         </m:e>
@@ -663,6 +776,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>Ľ</m:t>
           </m:r>
         </m:e>
@@ -679,6 +795,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>ļ</m:t>
           </m:r>
         </m:e>
@@ -695,6 +814,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>Ļ</m:t>
           </m:r>
         </m:e>
@@ -711,6 +833,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⌈</m:t>
           </m:r>
         </m:e>
@@ -727,6 +852,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>{</m:t>
           </m:r>
         </m:e>
@@ -743,6 +871,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>л</m:t>
           </m:r>
         </m:e>
@@ -759,6 +890,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>Л</m:t>
           </m:r>
         </m:e>
@@ -775,6 +909,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⤶</m:t>
           </m:r>
         </m:e>
@@ -791,6 +928,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>“</m:t>
           </m:r>
         </m:e>
@@ -807,6 +947,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>„</m:t>
           </m:r>
         </m:e>
@@ -823,6 +966,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥧</m:t>
           </m:r>
         </m:e>
@@ -839,6 +985,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥋</m:t>
           </m:r>
         </m:e>
@@ -855,6 +1004,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↲</m:t>
           </m:r>
         </m:e>
@@ -871,6 +1023,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≤</m:t>
           </m:r>
         </m:e>
@@ -887,6 +1042,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≦</m:t>
           </m:r>
         </m:e>
@@ -903,6 +1061,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟨</m:t>
           </m:r>
         </m:e>
@@ -919,6 +1080,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>←</m:t>
           </m:r>
         </m:e>
@@ -935,6 +1099,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇐</m:t>
           </m:r>
         </m:e>
@@ -951,6 +1118,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>←</m:t>
           </m:r>
         </m:e>
@@ -967,6 +1137,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇤</m:t>
           </m:r>
         </m:e>
@@ -983,6 +1156,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇆</m:t>
           </m:r>
         </m:e>
@@ -999,6 +1175,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↢</m:t>
           </m:r>
         </m:e>
@@ -1015,6 +1194,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⌈</m:t>
           </m:r>
         </m:e>
@@ -1031,6 +1213,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟦</m:t>
           </m:r>
         </m:e>
@@ -1047,6 +1232,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥡</m:t>
           </m:r>
         </m:e>
@@ -1063,6 +1251,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇃</m:t>
           </m:r>
         </m:e>
@@ -1079,6 +1270,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥙</m:t>
           </m:r>
         </m:e>
@@ -1095,6 +1289,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⌊</m:t>
           </m:r>
         </m:e>
@@ -1111,6 +1308,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↽</m:t>
           </m:r>
         </m:e>
@@ -1127,6 +1327,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↼</m:t>
           </m:r>
         </m:e>
@@ -1143,6 +1346,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇇</m:t>
           </m:r>
         </m:e>
@@ -1159,6 +1365,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↔</m:t>
           </m:r>
         </m:e>
@@ -1175,6 +1384,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇔</m:t>
           </m:r>
         </m:e>
@@ -1191,6 +1403,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↔</m:t>
           </m:r>
         </m:e>
@@ -1207,6 +1422,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇆</m:t>
           </m:r>
         </m:e>
@@ -1223,6 +1441,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇋</m:t>
           </m:r>
         </m:e>
@@ -1239,6 +1460,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↭</m:t>
           </m:r>
         </m:e>
@@ -1255,6 +1479,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥎</m:t>
           </m:r>
         </m:e>
@@ -1271,6 +1498,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⊣</m:t>
           </m:r>
         </m:e>
@@ -1287,6 +1517,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↤</m:t>
           </m:r>
         </m:e>
@@ -1303,6 +1536,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥚</m:t>
           </m:r>
         </m:e>
@@ -1319,6 +1555,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋋</m:t>
           </m:r>
         </m:e>
@@ -1335,6 +1574,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⊲</m:t>
           </m:r>
         </m:e>
@@ -1351,6 +1593,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⧏</m:t>
           </m:r>
         </m:e>
@@ -1367,6 +1612,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⊴</m:t>
           </m:r>
         </m:e>
@@ -1383,6 +1631,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥑</m:t>
           </m:r>
         </m:e>
@@ -1399,6 +1650,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥠</m:t>
           </m:r>
         </m:e>
@@ -1415,6 +1669,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↿</m:t>
           </m:r>
         </m:e>
@@ -1431,6 +1688,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥘</m:t>
           </m:r>
         </m:e>
@@ -1447,6 +1707,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↼</m:t>
           </m:r>
         </m:e>
@@ -1463,6 +1726,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥒</m:t>
           </m:r>
         </m:e>
@@ -1479,6 +1745,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋚</m:t>
           </m:r>
         </m:e>
@@ -1495,6 +1764,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪋</m:t>
           </m:r>
         </m:e>
@@ -1511,6 +1783,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≤</m:t>
           </m:r>
         </m:e>
@@ -1527,6 +1802,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≦</m:t>
           </m:r>
         </m:e>
@@ -1543,6 +1821,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⩽</m:t>
           </m:r>
         </m:e>
@@ -1559,6 +1840,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⩽</m:t>
           </m:r>
         </m:e>
@@ -1575,6 +1859,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪨</m:t>
           </m:r>
         </m:e>
@@ -1591,6 +1878,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⩿</m:t>
           </m:r>
         </m:e>
@@ -1607,6 +1897,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪁</m:t>
           </m:r>
         </m:e>
@@ -1623,6 +1916,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪃</m:t>
           </m:r>
         </m:e>
@@ -1640,7 +1936,6 @@
         <m:e>
           <m:r>
             <m:rPr>
-              <m:nor />
               <m:sty m:val="p" />
             </m:rPr>
             <m:t>⋚︀</m:t>
@@ -1659,6 +1954,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪓</m:t>
           </m:r>
         </m:e>
@@ -1675,6 +1973,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪅</m:t>
           </m:r>
         </m:e>
@@ -1691,6 +1992,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋖</m:t>
           </m:r>
         </m:e>
@@ -1707,6 +2011,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋚</m:t>
           </m:r>
         </m:e>
@@ -1723,6 +2030,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪋</m:t>
           </m:r>
         </m:e>
@@ -1739,6 +2049,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋚</m:t>
           </m:r>
         </m:e>
@@ -1755,6 +2068,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≦</m:t>
           </m:r>
         </m:e>
@@ -1771,6 +2087,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≶</m:t>
           </m:r>
         </m:e>
@@ -1787,6 +2106,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≶</m:t>
           </m:r>
         </m:e>
@@ -1803,6 +2125,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪡</m:t>
           </m:r>
         </m:e>
@@ -1819,6 +2144,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≲</m:t>
           </m:r>
         </m:e>
@@ -1835,6 +2163,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⩽</m:t>
           </m:r>
         </m:e>
@@ -1851,6 +2182,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≲</m:t>
           </m:r>
         </m:e>
@@ -1867,6 +2201,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥼</m:t>
           </m:r>
         </m:e>
@@ -1883,6 +2220,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⌊</m:t>
           </m:r>
         </m:e>
@@ -1899,6 +2239,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>𝔩</m:t>
           </m:r>
         </m:e>
@@ -1915,6 +2258,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>𝔏</m:t>
           </m:r>
         </m:e>
@@ -1931,6 +2277,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≶</m:t>
           </m:r>
         </m:e>
@@ -1947,6 +2296,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪑</m:t>
           </m:r>
         </m:e>
@@ -1963,6 +2315,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥢</m:t>
           </m:r>
         </m:e>
@@ -1979,6 +2334,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↽</m:t>
           </m:r>
         </m:e>
@@ -1995,6 +2353,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↼</m:t>
           </m:r>
         </m:e>
@@ -2011,6 +2372,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥪</m:t>
           </m:r>
         </m:e>
@@ -2027,6 +2391,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>▄</m:t>
           </m:r>
         </m:e>
@@ -2043,6 +2410,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>љ</m:t>
           </m:r>
         </m:e>
@@ -2059,6 +2429,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>Љ</m:t>
           </m:r>
         </m:e>
@@ -2075,6 +2448,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≪</m:t>
           </m:r>
         </m:e>
@@ -2091,6 +2467,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋘</m:t>
           </m:r>
         </m:e>
@@ -2107,6 +2486,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇇</m:t>
           </m:r>
         </m:e>
@@ -2123,6 +2505,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⌞</m:t>
           </m:r>
         </m:e>
@@ -2139,6 +2524,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇚</m:t>
           </m:r>
         </m:e>
@@ -2155,6 +2543,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥫</m:t>
           </m:r>
         </m:e>
@@ -2171,6 +2562,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>◺</m:t>
           </m:r>
         </m:e>
@@ -2187,6 +2581,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>ŀ</m:t>
           </m:r>
         </m:e>
@@ -2203,6 +2600,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>Ŀ</m:t>
           </m:r>
         </m:e>
@@ -2219,6 +2619,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⎰</m:t>
           </m:r>
         </m:e>
@@ -2235,6 +2638,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⎰</m:t>
           </m:r>
         </m:e>
@@ -2251,6 +2657,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪉</m:t>
           </m:r>
         </m:e>
@@ -2267,6 +2676,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪉</m:t>
           </m:r>
         </m:e>
@@ -2283,6 +2695,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪇</m:t>
           </m:r>
         </m:e>
@@ -2299,6 +2714,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≨</m:t>
           </m:r>
         </m:e>
@@ -2315,6 +2733,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪇</m:t>
           </m:r>
         </m:e>
@@ -2331,6 +2752,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≨</m:t>
           </m:r>
         </m:e>
@@ -2347,6 +2771,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋦</m:t>
           </m:r>
         </m:e>
@@ -2363,6 +2790,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟬</m:t>
           </m:r>
         </m:e>
@@ -2379,6 +2809,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇽</m:t>
           </m:r>
         </m:e>
@@ -2395,6 +2828,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟦</m:t>
           </m:r>
         </m:e>
@@ -2411,6 +2847,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟵</m:t>
           </m:r>
         </m:e>
@@ -2427,6 +2866,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟸</m:t>
           </m:r>
         </m:e>
@@ -2443,6 +2885,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟵</m:t>
           </m:r>
         </m:e>
@@ -2459,6 +2904,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟷</m:t>
           </m:r>
         </m:e>
@@ -2475,6 +2923,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟺</m:t>
           </m:r>
         </m:e>
@@ -2491,6 +2942,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟷</m:t>
           </m:r>
         </m:e>
@@ -2507,6 +2961,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟼</m:t>
           </m:r>
         </m:e>
@@ -2523,6 +2980,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟶</m:t>
           </m:r>
         </m:e>
@@ -2539,6 +2999,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟹</m:t>
           </m:r>
         </m:e>
@@ -2555,6 +3018,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⟶</m:t>
           </m:r>
         </m:e>
@@ -2571,6 +3037,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↫</m:t>
           </m:r>
         </m:e>
@@ -2587,6 +3056,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↬</m:t>
           </m:r>
         </m:e>
@@ -2603,6 +3075,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⦅</m:t>
           </m:r>
         </m:e>
@@ -2619,6 +3094,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>𝕝</m:t>
           </m:r>
         </m:e>
@@ -2635,6 +3113,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>𝕃</m:t>
           </m:r>
         </m:e>
@@ -2651,6 +3132,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⨭</m:t>
           </m:r>
         </m:e>
@@ -2667,6 +3151,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⨴</m:t>
           </m:r>
         </m:e>
@@ -2683,6 +3170,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>∗</m:t>
           </m:r>
         </m:e>
@@ -2699,6 +3189,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>_</m:t>
           </m:r>
         </m:e>
@@ -2715,6 +3208,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↙</m:t>
           </m:r>
         </m:e>
@@ -2731,6 +3227,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↘</m:t>
           </m:r>
         </m:e>
@@ -2747,6 +3246,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>◊</m:t>
           </m:r>
         </m:e>
@@ -2763,6 +3265,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>◊</m:t>
           </m:r>
         </m:e>
@@ -2779,6 +3284,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⧫</m:t>
           </m:r>
         </m:e>
@@ -2795,6 +3303,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>(</m:t>
           </m:r>
         </m:e>
@@ -2811,6 +3322,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⦓</m:t>
           </m:r>
         </m:e>
@@ -2827,6 +3341,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇆</m:t>
           </m:r>
         </m:e>
@@ -2843,6 +3360,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⌟</m:t>
           </m:r>
         </m:e>
@@ -2859,6 +3379,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⇋</m:t>
           </m:r>
         </m:e>
@@ -2875,6 +3398,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥭</m:t>
           </m:r>
         </m:e>
@@ -2891,6 +3417,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⊿</m:t>
           </m:r>
         </m:e>
@@ -2907,6 +3436,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>𝓁</m:t>
           </m:r>
         </m:e>
@@ -2923,6 +3455,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>ℒ</m:t>
           </m:r>
         </m:e>
@@ -2939,6 +3474,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↰</m:t>
           </m:r>
         </m:e>
@@ -2955,6 +3493,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>↰</m:t>
           </m:r>
         </m:e>
@@ -2971,6 +3512,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≲</m:t>
           </m:r>
         </m:e>
@@ -2987,6 +3531,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪍</m:t>
           </m:r>
         </m:e>
@@ -3003,6 +3550,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪏</m:t>
           </m:r>
         </m:e>
@@ -3019,6 +3569,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>[</m:t>
           </m:r>
         </m:e>
@@ -3035,6 +3588,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>‘</m:t>
           </m:r>
         </m:e>
@@ -3051,6 +3607,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>‚</m:t>
           </m:r>
         </m:e>
@@ -3067,6 +3626,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>ł</m:t>
           </m:r>
         </m:e>
@@ -3083,6 +3645,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>Ł</m:t>
           </m:r>
         </m:e>
@@ -3099,6 +3664,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>&lt;</m:t>
           </m:r>
         </m:e>
@@ -3115,6 +3683,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>≪</m:t>
           </m:r>
         </m:e>
@@ -3131,6 +3702,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⪦</m:t>
           </m:r>
         </m:e>
@@ -3147,6 +3721,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⩹</m:t>
           </m:r>
         </m:e>
@@ -3163,6 +3740,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋖</m:t>
           </m:r>
         </m:e>
@@ -3179,6 +3759,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋋</m:t>
           </m:r>
         </m:e>
@@ -3195,6 +3778,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⋉</m:t>
           </m:r>
         </m:e>
@@ -3211,6 +3797,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥶</m:t>
           </m:r>
         </m:e>
@@ -3227,6 +3816,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⩻</m:t>
           </m:r>
         </m:e>
@@ -3243,6 +3835,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>◃</m:t>
           </m:r>
         </m:e>
@@ -3259,6 +3854,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⊴</m:t>
           </m:r>
         </m:e>
@@ -3275,6 +3873,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>◂</m:t>
           </m:r>
         </m:e>
@@ -3291,6 +3892,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⦖</m:t>
           </m:r>
         </m:e>
@@ -3307,6 +3911,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥊</m:t>
           </m:r>
         </m:e>
@@ -3323,6 +3930,9 @@
         </m:e>
         <m:e>
           <m:r>
+            <m:rPr>
+              <m:sty m:val="p" />
+            </m:rPr>
             <m:t>⥦</m:t>
           </m:r>
         </m:e>
@@ -3340,7 +3950,6 @@
         <m:e>
           <m:r>
             <m:rPr>
-              <m:nor />
               <m:sty m:val="p" />
             </m:rPr>
             <m:t>≨︀</m:t>
@@ -3360,7 +3969,6 @@
         <m:e>
           <m:r>
             <m:rPr>
-              <m:nor />
               <m:sty m:val="p" />
             </m:rPr>
             <m:t>≨︀</m:t>

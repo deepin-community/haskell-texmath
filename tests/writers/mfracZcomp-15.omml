@@ -15,12 +15,11 @@
       <m:dPr>
         <m:begChr m:val="" />
         <m:endChr m:val="" />
+        <m:sepChr m:val="↓" />
         <m:grow />
       </m:dPr>
+      <m:e />
       <m:e>
-        <m:r>
-          <m:t>↓</m:t>
-        </m:r>
         <m:f>
           <m:fPr>
             <m:type m:val="bar" />
@@ -28,12 +27,14 @@
           <m:num>
             <m:r>
               <m:rPr>
-                <m:nor />
                 <m:sty m:val="p" />
               </m:rPr>
               <m:t>sin</m:t>
             </m:r>
             <m:r>
+              <m:rPr>
+                <m:sty m:val="p" />
+              </m:rPr>
               <m:t>&#8289;</m:t>
             </m:r>
             <m:r>
@@ -46,10 +47,8 @@
             </m:r>
           </m:den>
         </m:f>
-        <m:r>
-          <m:t>↓</m:t>
-        </m:r>
       </m:e>
+      <m:e />
     </m:d>
     <m:r>
       <m:rPr>

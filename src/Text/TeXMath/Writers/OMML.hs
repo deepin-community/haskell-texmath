@@ -28,7 +28,9 @@ import Text.XML.Light
 import Text.TeXMath.Types
 import Data.Generics (everywhere, mkT)
 import Data.Char (isSymbol, isPunctuation)
+import Data.Either (lefts, isLeft, rights)
 import qualified Data.Text as T
+import Data.List.Split  (splitWhen)
 
 -- | Transforms an expression tree to an OMML XML Tree
 writeOMML :: DisplayType -> [Exp] -> Element
@@ -97,6 +99,10 @@ makeArray props as rs = mnode "m" $ mProps : map toMr rs
 
 makeText :: TextType -> T.Text -> Element
 makeText a s = str (mnode "nor" () : setProps a) s
+
+defaultTo :: TextType -> [Element] -> [Element]
+defaultTo tt [] = setProps tt
+defaultTo _  ps = ps
 
 setProps :: TextType -> [Element]
 setProps tt =
@@ -188,30 +194,37 @@ showExp props e =
    EGrouped []      -> [str props "\x200B"] -- avoid dashed box, see #118
    EGrouped xs      -> concatMap (showExp props) xs
    EDelimited start end xs ->
-                       [mnode "d" [ mnode "dPr"
-                                    [ mnodeA "begChr" (T.unpack start) ()
-                                    , mnodeA "endChr" (T.unpack end) ()
-                                    , mnode "grow" () ]
-                                  , mnode "e" $ concatMap
-                                    (either ((:[]) . str props) (showExp props)) xs
-                                  ] ]
+                  [ mnode "d" $ mnode "dPr"
+                               [ mnodeA "begChr" (T.unpack start) ()
+                               , mnodeA "endChr" (T.unpack end) ()
+                               , mnodeA "sepChr" (T.unpack sepchr) ()
+                               , mnode "grow" () ]
+                              : map (mnode "e" . concatMap (showExp props)) es
+                  ]
+      where
+       seps = lefts xs
+       sepchr = case seps of
+                  []    -> ""
+                  (s:_) -> s
+       es   = map rights $ splitWhen isLeft xs
+
    EIdentifier ""   -> [str props "\x200B"]  -- 0-width space
                        -- to avoid the dashed box we get otherwise; see #118
    EIdentifier x    -> [str props x]
-   EMathOperator x  -> [makeText TextNormal x]  -- TODO revisit, use props?
+   EMathOperator x  -> [str (mnodeA "sty" "p" () : props) x]
    ESymbol ty xs
     | Just (c, xs') <- T.uncons xs
     , T.null xs'
     , isSymbol c || isPunctuation c
-                    -> [str props xs]
+                    -> [str (defaultTo TextNormal props) xs]
     | ty `elem` [Op, Bin, Rel]
                     -> [mnode "box"
                         [ mnode "boxPr"
                           [ mnodeA "opEmu" "1" () ]
                         , mnode "e"
-                          [str props xs]
+                          [str (defaultTo TextNormal props) xs]
                         ]]
-    | otherwise     -> [str props xs]
+    | otherwise     -> [str (defaultTo TextNormal props) xs]
    ESpace n
      | n > 0 && n <= 0.17    -> [str props "\x2009"]
      | n > 0.17 && n <= 0.23 -> [str props "\x2005"]
@@ -273,8 +286,21 @@ isBarChar :: Char -> Bool
 isBarChar c = c == '\x203E' || c == '\x00AF' ||
               c == '\x0304' || c == '\x0333'
 
+-- | Checks whether an expression marks the start of an nary operator
+-- expression. These are different integrals, sums, products, and
+-- coproducts.
 isNary :: Exp -> Bool
-isNary (ESymbol Op _) = True
+isNary (ESymbol Op s) = case s of
+  "\x222b" -> True  -- integral
+  "\x222c" -> True  -- double integral
+  "\x222d" -> True  -- triple integral
+  "\x222e" -> True  -- line integral
+  "\x222f" -> True  -- double line integral
+  "\x2230" -> True  -- triple line integral
+  "\x220f" -> True  -- product
+  "\x2210" -> True  -- coproduct
+  "\x2211" -> True  -- sum
+  _        -> False
 isNary _ = False
 
 -- Kept as String for Text.XML.Light

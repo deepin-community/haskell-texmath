@@ -41,7 +41,6 @@ import qualified Data.Text as T
 import Text.TeXMath.Types
 import Text.TeXMath.Shared (fixTree, getSpaceWidth, getOperator)
 import Text.TeXMath.Unicode.ToTeX (getSymbolType)
-import Control.Applicative ((<$>))
 import Text.TeXMath.Unicode.Fonts (getUnicode, textToFont)
 
 readOMML :: T.Text -> Either T.Text [Exp]
@@ -474,13 +473,7 @@ interpretText s
   | T.all isDigit s         = [ENumber s]
   | isJust (getOperator (EMathOperator s))
                           = [EMathOperator s]
-  | otherwise             =
-      case map interpretChar (T.unpack s) of
-            xs | all isIdentifierOrSpace xs -> [EText TextNormal s]
-               | otherwise                  -> xs
-  where isIdentifierOrSpace (EIdentifier _) = True
-        isIdentifierOrSpace (ESpace _)      = True
-        isIdentifierOrSpace _               = False
+  | otherwise             = map interpretChar (T.unpack s)
 
 -- The char attribute is a hex string
 getSymChar :: Element -> T.Text

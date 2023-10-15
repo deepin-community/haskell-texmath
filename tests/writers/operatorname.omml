@@ -8,6 +8,7 @@
       <m:dPr>
         <m:begChr m:val="{" />
         <m:endChr m:val="" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>
@@ -36,7 +37,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>div</m:t>
@@ -55,7 +55,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>div</m:t>
@@ -74,7 +73,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>div</m:t>
@@ -98,7 +96,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>div</m:t>
@@ -135,7 +132,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>⋆-lim&#39;sup</m:t>
@@ -146,6 +142,9 @@
                     <m:t>x</m:t>
                   </m:r>
                   <m:r>
+                    <m:rPr>
+                      <m:sty m:val="p" />
+                    </m:rPr>
                     <m:t>→</m:t>
                   </m:r>
                   <m:r>
@@ -160,7 +159,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>⋆-lim&#39;sup</m:t>
@@ -181,7 +179,6 @@
                     <m:e>
                       <m:r>
                         <m:rPr>
-                          <m:nor />
                           <m:sty m:val="p" />
                         </m:rPr>
                         <m:t>⋆-lim&#39;sup</m:t>
@@ -199,6 +196,9 @@
                     <m:t>x</m:t>
                   </m:r>
                   <m:r>
+                    <m:rPr>
+                      <m:sty m:val="p" />
+                    </m:rPr>
                     <m:t>→</m:t>
                   </m:r>
                   <m:r>
@@ -215,7 +215,6 @@
                     <m:e>
                       <m:r>
                         <m:rPr>
-                          <m:nor />
                           <m:sty m:val="p" />
                         </m:rPr>
                         <m:t>⋆-lim&#39;sup</m:t>
@@ -233,6 +232,9 @@
                     <m:t>x</m:t>
                   </m:r>
                   <m:r>
+                    <m:rPr>
+                      <m:sty m:val="p" />
+                    </m:rPr>
                     <m:t>→</m:t>
                   </m:r>
                   <m:r>
@@ -260,7 +262,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>⋆-lim&#39;sup</m:t>
@@ -271,6 +272,9 @@
                     <m:t>x</m:t>
                   </m:r>
                   <m:r>
+                    <m:rPr>
+                      <m:sty m:val="p" />
+                    </m:rPr>
                     <m:t>→</m:t>
                   </m:r>
                   <m:r>
@@ -285,7 +289,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>⋆-lim&#39;sup</m:t>
@@ -304,7 +307,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>⋆-lim&#39;sup</m:t>
@@ -315,6 +317,9 @@
                     <m:t>x</m:t>
                   </m:r>
                   <m:r>
+                    <m:rPr>
+                      <m:sty m:val="p" />
+                    </m:rPr>
                     <m:t>→</m:t>
                   </m:r>
                   <m:r>
@@ -334,7 +339,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>⋆-lim&#39;sup</m:t>
@@ -345,6 +349,9 @@
                     <m:t>x</m:t>
                   </m:r>
                   <m:r>
+                    <m:rPr>
+                      <m:sty m:val="p" />
+                    </m:rPr>
                     <m:t>→</m:t>
                   </m:r>
                   <m:r>
@@ -377,7 +384,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>curl</m:t>
@@ -396,7 +402,6 @@
                 <m:e>
                   <m:r>
                     <m:rPr>
-                      <m:nor />
                       <m:sty m:val="p" />
                     </m:rPr>
                     <m:t>argmax</m:t>

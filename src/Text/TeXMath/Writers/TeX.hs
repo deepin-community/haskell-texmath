@@ -26,13 +26,12 @@ import Text.TeXMath.Unicode.ToUnicode (fromUnicode)
 import qualified Text.TeXMath.Shared as S
 import qualified Data.Text as T
 import Data.Generics (everywhere, mkT)
-import Data.Semigroup ((<>))
-import Control.Applicative ((<$>), Applicative)
 import Control.Monad (when, unless, foldM_)
 import Control.Monad.Reader (MonadReader, runReader, Reader, asks, local)
 import Control.Monad.Writer( MonadWriter, WriterT,
                              execWriterT, tell, censor)
 import Text.TeXMath.TeX
+import Data.Either (isRight)
 
 -- import Debug.Trace
 -- tr' x = trace (show x) x
@@ -135,6 +134,22 @@ writeExp (EDelimited open close [Right (EArray aligns rows)]) = do
          writeDelim DLeft open
          writeExp (EArray aligns rows)
          writeDelim DRight close
+-- this clause is meant to pair with delimitedImplicit in the tex reader:
+writeExp (EDelimited open close es)
+  | all isStandardHeight es
+  , open == "(" || open == "[" || open == "|"
+  , close == ")" || close == "]" || close == "|"
+  , all isRight es
+  = do
+    getTeXMathM open >>= tell
+    mapM_ (either (writeDelim DMiddle) writeExp) es
+    getTeXMathM close >>= tell
+ where
+  isStandardHeight (Right (EIdentifier{})) = True
+  isStandardHeight (Right (ENumber{})) = True
+  isStandardHeight (Right (ESpace{})) = True
+  isStandardHeight (Right (ESymbol ty _)) = ty `elem` [Ord, Op, Bin, Rel, Pun]
+  isStandardHeight _ = False
 writeExp (EDelimited open close es) =  do
   writeDelim DLeft open
   mapM_ (either (writeDelim DMiddle) writeExp) es
@@ -191,24 +206,38 @@ writeExp (ESubsup b e1 e2) = do
   tellGroup (writeExp e1)
   tell [Token '^']
   tellGroup (writeExp e2)
-writeExp (EOver convertible b e1) =
-  writeScript Over convertible b e1
+writeExp (EOver convertible b e1) = do
+  env <- asks mathEnv
+  case xarrow b of
+    Just arrowCtrlSeq | "amsmath" `elem` env -> do
+      tell [arrowCtrlSeq]
+      tellGroup (writeExp e1)
+    _ -> writeScript Over convertible b e1
 writeExp (EUnder convertible b e1) =
   writeScript Under convertible b e1
 writeExp (EUnderover convertible b e1@(ESymbol Accent _) e2) =
  writeExp (EUnder convertible (EOver False b e2) e1)
 writeExp (EUnderover convertible b e1 e2@(ESymbol Accent _)) =
  writeExp (EOver convertible (EUnder False b e1) e2)
-writeExp (EUnderover convertible b e1 e2)
-  | isOperator b = do
-      (if isFancy b then tellGroup else id) $
-        (if convertible then local setConvertible else id) $ writeExp b
-      unless convertible $ tell [ControlSeq "\\limits"]
-      tell [Token '_']
-      tellGroup (checkSubstack e1)
-      tell [Token '^']
-      tellGroup (checkSubstack e2)
-  | otherwise = writeExp (EUnder convertible (EOver convertible b e2) e1)
+writeExp (EUnderover convertible b e1 e2) = do
+  env <- asks mathEnv
+  case xarrow b of
+    Just arrowCtrlSeq | "amsmath" `elem` env -> do
+      tell [arrowCtrlSeq]
+      tell [Token '[']
+      tellGroup $ writeExp e1
+      tell [Token ']']
+      tellGroup (writeExp e2)
+    Nothing
+      | isOperator b -> do
+          (if isFancy b then tellGroup else id) $
+            (if convertible then local setConvertible else id) $ writeExp b
+          unless convertible $ tell [ControlSeq "\\limits"]
+          tell [Token '_']
+          tellGroup (checkSubstack e1)
+          tell [Token '^']
+          tellGroup (checkSubstack e2)
+    _ -> writeExp (EUnder convertible (EOver convertible b e2) e1)
 writeExp (ESqrt e) = do
     tell [ControlSeq "\\sqrt"]
     tellGroup (writeExp e)
@@ -379,6 +408,11 @@ getTextCommand tt x =
                                     Grouped [ControlSeq "\\textit",
                                       Grouped [ControlSeq "\\textsf", x]]]
         _  -> [ControlSeq "\\text", x]
+
+xarrow :: Exp -> Maybe TeX
+xarrow (ESymbol Op "\x2190") = Just $ ControlSeq "\\xleftarrow"
+xarrow (ESymbol Op "\x2192") = Just $ ControlSeq "\\xrightarrow"
+xarrow _ = Nothing
 
 -- Commands which can be used with \left and \right
 delimiters :: Math [[TeX]]

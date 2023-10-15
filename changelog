@@ -1,3 +1,139 @@
+texmath (0.12.4)
+
+  * TeX reader: handle hyperref better (#186).  We don't parse it as a link,
+    but we pass its contents through rather than failing.
+
+  * Update scripts and data in `lib/` directory. These are not build
+    dependencies, but they were used to produce some of the large
+    tables in the source code.  Fixed the scripts and Makefile to work
+    with recent texmath and cabal.  Removed two very large unicode data
+    files that can be downloaded when needed.  (This reduces the size of
+    the source tarball considerably.) Remove `lib/toascii` (no longer used).
+
+  * Update MMLDict using latest unicode.xml.
+
+  * TeX reader: support siunitx `\qty`, `\qtyrange`, `\unit` (#185).
+
+  * Remove Text.TeXMath.Compat.  We can now safely require mtl >= 2.2.1.
+
+  * Use symbolMap from ToTeX to shorten the long hardcoded symbols list.
+    Now we only hard-code items that differ what what is in symbolMap.
+    This reduces the code size by thousands of lines.
+
+  * Unicode.ToTeX: export `symbolMap` [API change].  This uses the data in
+  `records` to create a backwards mapping from TeX commands to Exps (ESymbol
+      elements).  This can replace most of the hardcoded list in the current
+  TeX reader.
+
+  * Split out TeXMath.Readers.TeX.Commands internal module.
+    This makes the TeX reader shorter and should help compile times.
+
+  * OMML reader: better handling of m:t nodes (#151).
+    Previously we parsed an m:t element as an EIdentifier if it contains a
+    single letter, but an EText TextNormal if it contains more than one.  This
+    gave bad results in some cases.  It is better to reserve EText for the
+    case where the m:nor property is specified for "normal text."
+
+  * Require base >= 4.11.
+
+  * Remove `network-uri` flag from stack.yaml.
+
+
+texmath (0.12.3.3)
+
+  * OMML writer: use nary only for operators supported by LibreOffice
+    (Albert Krewinkel).  LibreOffice (and possibly Word, too) can handle
+    only a small set of operators in an `nary` element.
+
+  * TeX writer: use `\xleftarrow`, `\xrightarrow` where sensible
+    (Albert Krewinkel).  The commands are generated for expressions over `←`
+    or `→`. Besides being more idiomatic, this change also prevents the
+    generation of invalid LaTeX, as `\leftarrow` and `\rightarrow` are not
+    math operators and hence may not be followed by `\limit`.
+    Both commands are part of amsmath.sty.
+
+  * TeX reader:
+
+    + Improve angled-bracket support (Albert Krewinkel).
+      The amsmath package allows `\left<` and `\right>` as alternatives to
+      `\left\langle` and `\right\rangle`, respectively.
+    + Ignore stared version of `\tag` (Albert Krewinkel).
+    + Support \dots{c,b,m,i,o} from amsmath (#179).
+    + Change symbol returned for \dots{b,i,m} from `…` to `⋯`
+      (Albert Krewinkel).
+
+texmath (0.12.3.2)
+
+  * OMML writer: remove m:nor element in math operators (#178).
+    This caused the document's main font, rather than the math
+    font, to be used in formatting operators, which is undesirable.
+
+texmath (0.12.3.1)
+
+  * MathML reader: don't allow mfenced attributes to inherit (#177).
+    When open and close attributes aren't given on an mfenced,
+    we should use defaults rather than inheriting these from a
+    parent mfenced.
+
+texmath (0.12.3)
+
+  * TeX reader: implement logic to convert a Bin symbol to
+    an Op to Op when it occurs at the beginning of a group,
+    or after an Open, Pun, or Op symbol. This will give much
+    better results for unary `-` (#176).
+
+  * OMML writer: fixed rendering of EDelimited (#173).
+    We now properly render "middles" (separators).
+
+texmath (0.12.2)
+
+  * MathML input: support mmultiscripts element (#158, #100).
+
+  * Make MathML tag/attr recognition case-insensitive (#158).
+
+  * Pandoc writer: better handling of styling such as `\mathrm` (#145).
+    Previously identifiers were always italic, no matter what
+    styling was applied.
+
+  * Ignore `\tag` in TeX input (#162).
+
+  * TeX writer: avoid unneeded `\left` and `\right` for delimited.
+    We don't need `\left` and `\right` when the contents are
+    "standard height."
+
+  * TeX reader: parse implicit EDelimited sections (#172).
+    We now parse `(x)` as EDelimited, even though `\right` and `\left`
+    are not used.
+
+texmath (0.12.1.1)
+
+  * Fix compilation with GHC-9.0.1 (#169, Simon Jakobi).
+    Background:
+    https://gitlab.haskell.org/ghc/ghc/-/wikis/migration/9.0#simplified-subsumption
+  * Add eqn to online demo.
+  * Improve error messages for unknown control sequences, and restructure
+    tex parser to be more efficient (#167).
+
+texmath (0.12.1)
+
+  * OMML writer: explicitly mark symbols as non-italic (#109).
+    Otherwise, for some reason, they appear as italic by default.
+  * Improve error messages in reading tex arrays.
+  * Improve support for `\bmod`, `\mod`, etc. (#165).
+    Allow them to take complex arguments like `\left( 1 \right)`.
+  * Improve support for `\genfrac` (#164).
+  * Ignore `\textstyle`, `\scriptstyle`, `\scriptscriptstyle`,
+    as we currently ignore `\displaystyle`.
+  * Parse siunitx commands in reading tex (#157).
+  * Improve handling of `\not` in reading tex (#161).
+    Previously we only handled `\not` in front of certain symbols.
+  * Support `\pod` and `\pmod` and clean up spacing and font for
+    `\mod` and `\bmod` (#160).
+
+texmath (0.12.0.3)
+
+  * Allow pandoc-types 1.22.
+
 texmath (0.12.0.2)
 
   * Allow pandoc-types 1.21.

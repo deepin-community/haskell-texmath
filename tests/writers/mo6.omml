@@ -6,7 +6,6 @@
   <m:oMath>
     <m:r>
       <m:rPr>
-        <m:nor />
         <m:sty m:val="p" />
       </m:rPr>
       <m:t>there exists</m:t>
@@ -15,6 +14,9 @@
       <m:t>δ</m:t>
     </m:r>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>&gt;</m:t>
     </m:r>
     <m:r>
@@ -22,7 +24,6 @@
     </m:r>
     <m:r>
       <m:rPr>
-        <m:nor />
         <m:sty m:val="p" />
       </m:rPr>
       <m:t>such that</m:t>
@@ -31,12 +32,16 @@
       <m:t>f</m:t>
     </m:r>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>&#8289;</m:t>
     </m:r>
     <m:d>
       <m:dPr>
         <m:begChr m:val="(" />
         <m:endChr m:val=")" />
+        <m:sepChr m:val="" />
         <m:grow />
       </m:dPr>
       <m:e>
@@ -46,6 +51,9 @@
       </m:e>
     </m:d>
     <m:r>
+      <m:rPr>
+        <m:sty m:val="p" />
+      </m:rPr>
       <m:t>&lt;</m:t>
     </m:r>
     <m:r>

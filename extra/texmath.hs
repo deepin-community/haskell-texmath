@@ -14,7 +14,6 @@ import Data.Maybe
 import Text.Pandoc.Definition
 import Network.URI (unEscapeString)
 import Data.Aeson (encode, (.=), object)
-import Data.Semigroup ((<>))
 import qualified Data.ByteString.Lazy as B
 import qualified Data.Text as T
 import qualified Data.Text.IO as T
@@ -108,7 +107,7 @@ output dt (PandocWriter w) es = tshow (fromMaybe fallback (w dt es))
 err :: Bool -> Int -> T.Text -> IO a
 err cgi code msg = do
   if cgi
-     then B.putStr $ encode $ object [T.pack "error" .= msg]
+     then B.putStr $ encode $ object ["error" .= msg]
      else T.hPutStrLn stderr msg
   exitWith $ ExitFailure code
 
@@ -178,7 +177,7 @@ runCGI = do
   case reader inp of
         Left msg -> err True 1 msg
         Right v  -> B.putStr $ encode $ object
-                       [ T.pack "success" .=
+                       [ "success" .=
                        ensureFinalNewline (output
                         (if inline
                             then DisplayInline
